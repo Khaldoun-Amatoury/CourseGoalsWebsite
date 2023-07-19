@@ -12,6 +12,10 @@ const CourseInput = props => {
 
   const formSubmitHandler = event => {
     event.preventDefault();
+    // trim cuts the white space at the beginning and end 
+    if(enteredValue.trim().length === 0){
+      return;
+    }
     props.onAddGoal(enteredValue);
   };
 
