@@ -45,7 +45,7 @@ npm start
 
 2. Enter the details of your goal in the provided input fields.
 
-3. Click the "Add" button to add the goal to your list.
+3. Click the "Add Goal" button to add the goal to your list.
 
 4. To delete a goal, simply click on it. The goal will be removed from your list.
 
